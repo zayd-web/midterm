@@ -1,0 +1,67 @@
+/* Body rule set */
+body {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    font: 16px Arial, sans-serif;
+}
+
+/* Class selector for structural */
+.structural {
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Styling for h1 element */
+h1 {
+    color: #333; /* Set your desired color */
+    font-size: 36px; /* Set your desired font size */
+}
+
+/* Styling for h2 element */
+h2 {
+    color: #555; /* Set your desired color */
+    font-size: 24px; /* Set your desired font size */
+}
+
+/* Styling for the main section */
+main {
+    height: 70vh;
+}
+
+/* Image ruleset */
+img {
+    border: 1px solid #000; /* Set your desired border properties */
+    width: 90%;
+    height: 80%;
+}
+
+/* Styling for figure elements */
+figure {
+    background-color: #f0f0f0; /* Set your desired background color */
+    width: 45%;
+    height: 60%;
+    margin: auto;
+    padding: 10px;
+}
+
+/* Float one figure right and the other left */
+#figure1 {
+    float: left;
+}
+
+#figure2 {
+    float: right;
+}
+
+/* Styling for the section element */
+section {
+    clear: both;
+}
+
+/* Styling for captions */
+figcaption {
+    font-weight: bold; /* Set your desired font-weight */
+    font-size: 16px; /* Set your desired font size */
+    color: #777; /* Set your desired color */
+    padding: 5px; /* Add 5px
